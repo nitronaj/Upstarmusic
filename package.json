@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "NODE_ENV=producton webpack -p",
-    "deply": "npm run build:prod && git subtree push --prefix dist origin gh-pagaes",
+    "deploy": "npm run build:prod && git subtree push --prefix dist origin gh-pagaes",
     "serve": "webpack-dev-server"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
